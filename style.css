@@ -1,0 +1,40 @@
+/* poin konten utama (Wadah Konten) */
+.wadah-konten {
+  max-width: 760px; /* Contoh: 760px */
+    margin: 0 auto;
+}
+
+
+/* poin c. Header Styling */
+header {
+    background-color: #2c3e50; /* Warna latar header */
+}
+/* poin d. card design (.kartu-item) */
+.kartu-item {
+    background-color: #ffffff; /* warna latar kontras */
+    padding: 16px; /*(bisa ditambah jika perlu) */
+    margin-bottom: 15px;     /*margin bawah 15px */
+    border-radius: 8px;        
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Border samping kiri menggunakan warna tema Biru */
+    border-left: 4px solid #1e3a8a; /* Garis Biru tebal di kiri */
+}
+
+/* Hover Navigasi - berubah menjadi merah saat disentuh */
+nav a:hover {
+    color: #333333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #dc2626;
+    color: #ffffff; 
+}
+
+.status-ujian{
+    color:#16a34a;
+    font-weight: bold;
+  padding: 8px;
+  background-color: #f3f4f6;
+  border-radius: 4px; 
+}
